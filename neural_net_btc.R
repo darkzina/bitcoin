@@ -1,5 +1,8 @@
-install.packages("ISLR")
-library("ISLR")
+#install.packages("ISLR")
+#library("ISLR")
+data<-read.table("data_BTC.csv", sep = ",")
+data
+
 print(head(College,100))
 ?apply
 maxs <- apply(College[,2:18], 2, max)
